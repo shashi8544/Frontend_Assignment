@@ -1,0 +1,37 @@
+
+  /* Container styling */
+  .autocomplete-container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1);
+    border-radius: 8px;
+    background-color: #4cdb98;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the container */
+  .autocomplete-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* College logo styling */
+  .college-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* College title styling */
+  .college-title {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
